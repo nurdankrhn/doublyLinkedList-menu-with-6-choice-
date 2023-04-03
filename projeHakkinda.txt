@@ -1,0 +1,19 @@
+***DERLEME HAKKINDA BİLGİ***
+Proje ubuntu işletim sistemi üzerinde ve derleme terminal aracılığıyla yapılmıştır. 
+*Derleme yapmak için terminale şu komut girilmektedir: gcc source.c (ilk derleme için bir videodan beraber çalıştırılmalı diye bilgi aldığımdan şu kodu yazdım gcc source.c myLibrary.c)
+*Ardından ./a.out diyip projemizi görüntüleyebilir.
+
+****PROJE MENUSU  HAKKINDA BİLGİ*****
+-Yapılan proje bir string double link list projesidir.
+-Kullanıcı için 6 farklı seçenek mevcuttur.
+1)İlk seçenekte eklenen elemanlar listenin en başına eklenmekte yani en son eklediğimiz string literali en baştaki eleman ilk girdiğimiz ise en son eleman olarak listeye eklenir.
+2)İkinci seçenekte istediğimiz bir indekse yeni gireceğimiz string literalini yerleştirmekteyiz. Bu seçenekten sonra her literal girilen pozisyona göre yeniden sıralanmakta ve 2 yi 
+seçtikten sonra gelen en baştaki kaç defa tekrarlanacak seçeneğiyle aynı işlemi istediğimiz kadar tekrarlarız.
+3)Üçüncü seçenek seçildiği zaman listenin en sonuna eleman eklenir. Yine burada da bu seçimden gelen kaç kere tekrarlanak sorusu(kaç tane eleman girilecek) ile aynı işlem ard arda tekrar
+edilebilir.
+4)Dör numaralı seçenekle ile oluşturulan liste içerisinde aramak istediğiniz string literalinin hangi indexte olduğunu veya liste de olup olmadığını bulabilirsiniz. Eğer aranan elaman listede yok
+ise hata mesajı ile bilgilendirme yapılmaktadır.
+5)5 numaralı seçenek ile tüm yapılan işlemler sonucu listenizi istediğiniz zaman görmek veya eklenen elemanlarda hata olup olmadığını kontrol etmek isterseniz bu seçeneği seçmaniz yeterli
+olacaktır.
+6)6 numaralı seçenek ile yapılan uygulamdan çıkılır. Çıkış işleminin başarı ile sonlandığını göstermesi için exit(1) ifadesi kullanılmış ve bu işlem ardından geri dönüş değeri 1 olmaktadır.
+-Projeye ait tüm fonksiyon bildirimleri "myLibrary.h" isimli başlık dosyasında yapılırken, fonksiyon tanımlamaları "myLibrary.c" isimli implementasyon dosyasında yapılmıştır.
