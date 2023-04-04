@@ -5,7 +5,7 @@
 
 Menüde 6 seçenek mevcuttur. Bu 6 seçenek için ayrı fonksiyonlar yapılmıştır. Fonksiyonların tanımları myLibrary.c içinde bildirimleri ise myLibrary.h isimli header file içindedir.
 
-1) Link list'in başına string elaman eklemek. Bu seçenek seçildikten sonra kullanıcıdan kaç tane elaman ekleyeceği bilgisi alınacak. Daha sonra bu eleman sayısı kadar string link list'in başına eklenecek. Örneğin 5 eleman sayısı olsun. Sırasıyla Ayşe, Ali, Mehmet, Fatma, Veli isimlerini aldın diyelim. Bu elemanlar her girildiğinde listenin başına ekleneceği için link list'in Veli, Fatma, Mehmet, Ali, Ayşe şeklinde çıktı verilmesi bekleniyor.
+1) Link list'in başına string elaman eklemek. Bu seçenek seçildikten sonra kullanıcıdan kaç tane elaman ekleyeceği bilgisi alınacak. Daha sonra bu eleman sayısı kadar string link list'in başına eklenecek. Örneğin 5 eleman sayısı olsun. Sırasıyla Ayşe, Ali, Mehmet, Fatma, Veli isimlerinin alındığını varsayalım. Bu elemanlar her girildiğinde listenin başına ekleneceği için link list'in Veli, Fatma, Mehmet, Ali, Ayşe şeklinde çıktı verilmesi bekleniyor.
 
 2) Link list'in herhangi bir yerine string eleman eklemek. Kullanıcı istediği index'e eleman eklemeli. (1. maddedeki örnek bu seçeneğe göre düşünülüp yapılmıştır.)
 
