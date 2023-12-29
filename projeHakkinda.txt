@@ -1,6 +1,6 @@
 ***DERLEME HAKKINDA BİLGİ***
 Proje ubuntu işletim sistemi üzerinde ve derleme terminal aracılığıyla yapılmıştır. 
-*Derleme yapmak için terminale şu komut girilmektedir: gcc source.c (ilk derleme için bir videodan beraber çalıştırılmalı diye bilgi aldığımdan şu kodu yazdım gcc source.c myLibrary.c)
+*Derleme yapmak için terminale şu komut girilmektedir: gcc source.c myLibrary.c
 *Ardından ./a.out diyip projemizi görüntüleyebilir.
 
 ****PROJE MENUSU  HAKKINDA BİLGİ*****
